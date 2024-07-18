@@ -25,6 +25,8 @@ jobs:
         downloadAllMeta: true
         downloadFromList: true
         downloadMeta: true
+    - name: Show metadata
+      run: ls -ltra build/
     - name: Build packages 🔧
       uses: itxaka/luet-github-action@master
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
