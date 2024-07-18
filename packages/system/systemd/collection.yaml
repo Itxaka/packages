@@ -1,9 +1,0 @@
-packages:
-  - name: "systemd-boot"
-    category: "system"
-    version: "255-7"
-    labels:
-      github.repo: "systemd"
-      autobump.revdeps: "true"
-      github.owner: "systemd"
-      autobump.skip_if_contains: '["rc"]'
