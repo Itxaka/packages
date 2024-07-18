@@ -18,7 +18,7 @@ jobs:
         git fetch --prune --unshallow
         mkdir build
     - name: Download meta 🔧
-      uses: luet-lab/luet-github-action@master
+      uses: itxaka/luet-github-action@master
       with:
         FINAL_REPO: ttl.sh/packages
         REPOSITORY_TYPE: docker
